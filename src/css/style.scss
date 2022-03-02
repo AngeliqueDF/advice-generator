@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Man Rope';
+  src: url('./../fonts/Manrope/Manrope-VariableFont_wght.ttf');
+  font-weight: 800;
+}
+
+$advice-id-color: hsl(150, 100%, 66%);
+$new-advice-btn-background-color: hsl(150, 100%, 66%);
+$app-background-color: hsl(218, 23%, 16%);
+$advice-background-color: hsl(217, 19%, 24%);
+$advice-text-color: hsl(193, 38%, 86%);
+
+body{
+  background-color: $app-background-color;
+  color: $advice-text-color;
+  font-size: 28px;
+  font-family: 'Man Rope';
+}
+
+article {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 12px;
+
+  background-color: $advice-background-color;
+  text-align: center;
+  margin: 6rem auto 0;
+  padding: 1rem;
+  position: relative;
+
+  h1{
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $advice-id-color;
+  }
+
+  blockquote {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    padding: 0.7rem;
+
+    &:before,
+    &::after{
+      content: "\"",
+    }
+  }
+
+  #new-advice {
+    position: absolute;
+    bottom: -1.75rem;
+    // left: 0;
+    // right: 0;
+    margin: 0 auto;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: $new-advice-btn-background-color;
+    border: none;
+    border-radius: 100%;
+
+    &:hover {
+      box-shadow: 0px 0px 30px $advice-id-color;
+      cursor: pointer;
+    }
+  }
+
+  #divider {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem auto 2rem;
+    background-image: url('./../images/pattern-divider-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+}
+
+footer {
+  margin-top: 4rem;
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  article {
+    width: 35%;
+    padding: 3rem 1.5rem;
+    
+    h1 {
+      font-size: 0.9rem;
+      letter-spacing: 3px;
+      margin-bottom: 1.2rem;
+    }
+
+    blockquote{
+      padding: 0;
+      margin: 0;
+      width: 90%;
+      font-size: 1.7rem;
+      margin-bottom: 1.4rem;
+    }
+
+    #divider {
+      background-image: url('./../images/pattern-divider-desktop.svg');
+      background-position: center;
+      height: 100%;
+      margin: 0 auto 2rem;
+      padding: 1rem 0;
+      background-repeat: no-repeat;
+
+    }
+
+    #new-advice {
+      position: absolute;
+      bottom: -1.75rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      height: 5rem;
+      width: 5rem;
+      img{
+        height: 2rem;
+      }
+    }
+  }
+}
