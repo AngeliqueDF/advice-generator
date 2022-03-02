@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Man Rope";
+  src: url("Manrope-VariableFont_wght.194a619e.ttf");
+  font-weight: 800;
+}
+body {
+  background-color: #1f2632;
+  color: #cee3e9;
+  font-size: 28px;
+  font-family: "Man Rope";
+}
+article {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #323a49;
+  text-align: center;
+  margin: 6rem auto 0;
+  padding: 1rem;
+  position: relative;
+}
+article h1 {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #52ffa8;
+}
+article blockquote {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 0.7rem;
+}
+article blockquote:before, article blockquote::after {
+  content: '"';
+}
+article #new-advice {
+  position: absolute;
+  bottom: -1.75rem;
+  margin: 0 auto;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 100%;
+}
+article #new-advice:hover {
+  box-shadow: 0px 0px 30px #52ffa8;
+  cursor: pointer;
+}
+article #divider {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem auto 2rem;
+  background-image: url("pattern-divider-mobile.84822bfc.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer {
+  margin-top: 4rem;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+@media only screen and (min-width: 1440px) {
+  article {
+    width: 35%;
+    padding: 3rem 1.5rem;
+  }
+  article h1 {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    margin-bottom: 1.2rem;
+  }
+  article blockquote {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+  }
+  article #divider {
+    background-image: url("pattern-divider-desktop.e531005d.svg");
+    background-position: center;
+    height: 100%;
+    margin: 0 auto 2rem;
+    padding: 1rem 0;
+    background-repeat: no-repeat;
+  }
+  article #new-advice {
+    position: absolute;
+    bottom: -1.75rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+  }
+  article #new-advice img {
+    height: 2rem;
+  }
+}
+/*# sourceMappingURL=index.528fa72c.css.map */
