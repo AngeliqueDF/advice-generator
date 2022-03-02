@@ -1,6 +1,13 @@
 {
   "name": "advide-generator-app",
   "source": "src/index.html",
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ],
   "version": "1.0.0",
   "description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
   "dependencies": {
