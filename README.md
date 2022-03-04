@@ -70,7 +70,7 @@ or
 This frontend project is a good way to train on how to connect to an API and render data received to the DOM.
 
 <p align="center">
-<!-- <img width="375" width="667" src="./images/../src/design/mobile-design.jpg"> -->
+<img width="375" width="667" src="./images/../src/design/mobile-design.jpg">
 </p>
 
 <br />
