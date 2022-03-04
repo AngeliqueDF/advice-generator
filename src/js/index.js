@@ -6,9 +6,9 @@ const findNewAdvice = async () => {
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
-  const newIdButton = document.getElementById('new-advice')
+  const newAdviceBtn = document.getElementById('new-advice')
 
-  newIdButton.addEventListener('click', async () => {
+  newAdviceBtn.addEventListener('click', async () => {
     const adviceID = document.getElementById('advice-id')
     const adviceText = document.getElementById('advice-text')
 
