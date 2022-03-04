@@ -1,6 +1,5 @@
 {
   "name": "advide-generator-app",
-  "source": "src/index.html",
   "browserslist": [
     "last 3 and_chr versions",
     "last 3 chrome versions",
@@ -19,6 +18,7 @@
   "author": "Angélique D. Faye",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2"
   }
 }
