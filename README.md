@@ -11,7 +11,7 @@
 
 # Advice generator app challenge
 
-![Screen shot of the todo app](./src/images/desktop-screenshot.png)
+<!-- ![Screen shot of the todo app](./src/images/desktop-screenshot.png) -->
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -70,7 +70,7 @@ or
 This frontend project is a good way to train on how to connect to an API and render data received to the DOM.
 
 <p align="center">
-<img width="375" width="667" src="./images/../src/design/mobile-design.jpg">
+<!-- <img width="375" width="667" src="./images/../src/design/mobile-design.jpg"> -->
 </p>
 
 <br />
