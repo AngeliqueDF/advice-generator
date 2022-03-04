@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && parcel serve index.html",
     "dev": "parcel src/index.html",
-    "build": "parcel src/index.html --dist-dir ."
+    "build": "parcel build src/index.html --dist-dir ."
   },
   "author": "Angélique D. Faye",
   "license": "MIT",

@@ -1,0 +1,2 @@
+window.addEventListener("DOMContentLoaded",(async()=>{document.getElementById("new-advice").addEventListener("click",(async()=>{const e=document.getElementById("advice-id"),t=document.getElementById("advice-text"),{slip:{id:n,advice:d}}=await(async()=>{const e=await fetch("https://api.adviceslip.com/advice");return await e.json()})();e.textContent=n,t.textContent=d}))}));
+//# sourceMappingURL=index.33971e94.js.map
