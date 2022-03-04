@@ -15,7 +15,6 @@
 .DS_Store
 .prettierignore
 
-*.md
 node_modules/
 .parcel-cache
 .cache/
