@@ -11,7 +11,7 @@
 
 # Advice generator app challenge
 
-<!-- ![Screen shot of the todo app](./src/images/desktop-screenshot.png) -->
+![Screenshot of the todo app](./src/images/desktop-screenshot.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -29,7 +29,8 @@
 ## Links
 
 <p>
-<a href="/.github/README.md">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a>
+<a href="https://github.com/AngeliqueDF/advice-generator-challenge">GitHub repo</a> • 
+<!-- <a href="">Live demo </a> -->
 </p>
 
 <br />
