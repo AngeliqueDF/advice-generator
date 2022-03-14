@@ -78,6 +78,7 @@ This frontend project is a good way to practice connecting to an API and render 
 - When the dice is clicked, the app displays a new advice from the Advice Slip API.
   - Branch `main` solves the challenge with the `async/await` syntax.
   - Branch `solved-with-promise-chaining` solves the challenge with promise chaining.
+  - Branch `solved-with-jquery-ajax` solves the challenge with `jquery`.
 - Responsive interface.
 - Lightweight.
 
