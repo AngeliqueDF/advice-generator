@@ -1,21 +1,20 @@
-window.addEventListener("DOMContentLoaded", async () => {
-	const newAdviceBtn = document.getElementById("new-advice");
+const findNewAdvice = async () => {
+  const response = await fetch('https://api.adviceslip.com/advice')
+  const advice = await response.json()
 
-	newAdviceBtn.addEventListener("click", () => {
-		const adviceID = document.getElementById("advice-id");
-		const adviceText = document.getElementById("advice-text");
+  return advice
+}
 
-		fetch("https://api.adviceslip.com/advice")
-			.then((response) => response.json())
-			.then((data) => {
-				console.log(data);
-				const {
-					slip: { id, advice },
-				} = data;
+window.addEventListener('DOMContentLoaded', async () => {
+  const newAdviceBtn = document.getElementById('new-advice')
 
-				adviceID.textContent = id;
-				adviceText.textContent = advice;
-			})
-			.catch((error) => console.log(error));
-	});
-});
+  newAdviceBtn.addEventListener('click', async () => {
+    const adviceID = document.getElementById('advice-id')
+    const adviceText = document.getElementById('advice-text')
+
+    const { slip: { id, advice } } = await findNewAdvice()
+
+    adviceID.textContent = id
+    adviceText.textContent = advice
+  })
+})
