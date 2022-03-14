@@ -1,20 +1,28 @@
-const findNewAdvice = async () => {
-  const response = await fetch('https://api.adviceslip.com/advice')
-  const advice = await response.json()
+import $ from "jquery";
 
-  return advice
-}
+$(() => {
+	const API_URL = "https://api.adviceslip.com/advice";
 
-window.addEventListener('DOMContentLoaded', async () => {
-  const newAdviceBtn = document.getElementById('new-advice')
+	// Getting the elements to which we will add interactivity
+	const newAdviceBtn = $("#new-advice");
+	const adviceID = $("#advice-id");
+	const adviceText = $("#advice-text");
 
-  newAdviceBtn.addEventListener('click', async () => {
-    const adviceID = document.getElementById('advice-id')
-    const adviceText = document.getElementById('advice-text')
+	// Listening for click events on the button
+	$(newAdviceBtn).on("click", () => {
+		// Sending a request to the API
+		$.get(API_URL, (data, status) => {
+			// Checking the request was successful
+			if (status === "success") {
+				// Parsing and destructuring the response
+				const {
+					slip: { id, advice },
+				} = JSON.parse(data);
 
-    const { slip: { id, advice } } = await findNewAdvice()
-
-    adviceID.textContent = id
-    adviceText.textContent = advice
-  })
-})
+				// Adding the id and advice to their HTML elements
+				$(adviceID).text(id);
+				$(adviceText).text(advice);
+			}
+		});
+	});
+});
