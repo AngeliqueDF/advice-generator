@@ -1,5 +1,6 @@
 {
 	"name": "advide-generator-app",
+	"homepage": "https://angeliquedf.github.io/advice-generator-challenge/",
 	"browserslist": [
 		"last 3 and_chr versions",
 		"last 3 chrome versions",
