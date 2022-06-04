@@ -5,7 +5,7 @@
 <div align="center">
   <img src="./src/images/logo-html5.svg">
   <img src="./src/images/logo-css3.svg">
-  <img width="48px" src="./src/images/logo-javascript-gif.gif">
+  <img width="24px" src="./src/images/logo-javascript-gif.gif">
   <img src="./src/images/logo-parceljs.png">
 </div>
 
