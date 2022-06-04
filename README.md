@@ -57,7 +57,7 @@ or
 > - See hover states for all interactive elements on the page
 > - Generate a new piece of advice by clicking the dice icon
 >
-> _[From Frontend Mentor]()_
+> _[From Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)_
 
 <br />
 
