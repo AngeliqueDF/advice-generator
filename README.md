@@ -37,6 +37,12 @@ or
 1. `npm run dev`
 2. Keep an eye on the console and reload the browser if necessary. The live reload server sometimes disconnects on its own.
 
+### Check out the other branches!
+
+- Branch `main` solves the challenge with the `async/await` syntax.
+- Branch `solved-with-promise-chaining` solves the challenge with promise chaining.
+- Branch `solved-with-jquery-ajax` solves the challenge with `jquery`.
+
 <br />
 
 ## The challenge
@@ -76,9 +82,6 @@ This frontend project is a good way to practice connecting to an API and render 
 ## Features
 
 - When the dice is clicked, the app displays a new advice from the Advice Slip API.
-  - Branch `main` solves the challenge with the `async/await` syntax.
-  - Branch `solved-with-promise-chaining` solves the challenge with promise chaining.
-  - Branch `solved-with-jquery-ajax` solves the challenge with `jquery`.
 - Responsive interface.
 - Lightweight.
 
