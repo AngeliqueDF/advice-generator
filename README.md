@@ -71,14 +71,6 @@ This frontend project is a good way to practice connecting to an API and render 
 
 <br />
 
-## How I built this project
-
-1.  Started by structuring the page with semantic and accessible HTML.
-2.  Styled the page with a mobile-first approach.
-3.  Added functionality with JavaScript.
-
-<br />
-
 ## Features
 
 - When the dice is clicked, the app displays a new advice from the Advice Slip API.
@@ -94,6 +86,14 @@ This frontend project is a good way to practice connecting to an API and render 
 - `Flexbox`.
 - Mobile-first workflow.
 - Minified with `parcel` (v2).
+
+<br />
+
+## How I built this project
+
+1.  Started by structuring the page with semantic and accessible HTML.
+2.  Styled the page with a mobile-first approach.
+3.  Added functionality with JavaScript.
 
 <br />
 
