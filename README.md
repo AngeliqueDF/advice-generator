@@ -97,14 +97,6 @@ This frontend project is a good way to practice connecting to an API and render 
 
 <br />
 
-## How I built this project
-
-1.  Start by structuring the page with semantic and accessible HTML.
-2.  Style the page with a mobile-first approach.
-3.  Add functionality with JavaScript.
-
-<br />
-
 ## Sources
 
 - [Advice generator app from Frontend Mentor.](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
