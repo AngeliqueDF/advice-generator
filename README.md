@@ -18,8 +18,8 @@ _An app to get inspired._
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/advice-generator-challenge">GitHub repo</a> <!-- • 
-<a href="">Live demo </a> -->
+<a href="https://github.com/AngeliqueDF/advice-generator-challenge">GitHub repo</a> • 
+<a href="https://symphonious-profiterole-31bf3c.netlify.app/">Live demo</a>
 </p>
 
 <br />
