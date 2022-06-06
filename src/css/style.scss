@@ -155,4 +155,10 @@ footer {
 	}
 }
 
+@media (hover: none) {
+	#new-advice:active {
+		box-shadow: 0px 0px 30px $advice-id-color;
+	}
+}
+
 /* END DICE HOVER STYLES */
