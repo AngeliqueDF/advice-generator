@@ -146,3 +146,13 @@ footer {
 		right: 0;
 	}
 }
+
+/* DICE HOVER STYLES */
+@media (any-hover: hover) {
+	#new-advice:hover {
+		box-shadow: 0px 0px 30px $advice-id-color;
+		cursor: pointer;
+	}
+}
+
+/* END DICE HOVER STYLES */
