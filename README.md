@@ -5,7 +5,7 @@
 <div align="center">
   <img src="./src/images/logo-html5.svg">
   <img src="./src/images/logo-css3.svg">
-  <img width="48px" src="./src/images/logo-javascript-gif.gif">
+  <img width="24px" src="./src/images/logo-javascript-gif.gif">
   <img src="./src/images/logo-parceljs.png">
 </div>
 
@@ -18,8 +18,8 @@ _An app to get inspired._
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/advice-generator-challenge">GitHub repo</a> <!-- • 
-<a href="">Live demo </a> -->
+<a href="https://github.com/AngeliqueDF/advice-generator-challenge">GitHub repo</a> • 
+<a href="https://symphonious-profiterole-31bf3c.netlify.app/">Live demo</a>
 </p>
 
 <br />
@@ -37,6 +37,12 @@ or
 1. `npm run dev`
 2. Keep an eye on the console and reload the browser if necessary. The live reload server sometimes disconnects on its own.
 
+### Check out the other branches!
+
+- Branch `main` solves the challenge with the `async/await` syntax.
+- Branch `solved-with-promise-chaining` solves the challenge with promise chaining.
+- Branch `solved-with-jquery-ajax` solves the challenge with `jquery`.
+
 <br />
 
 ## The challenge
@@ -51,7 +57,7 @@ or
 > - See hover states for all interactive elements on the page
 > - Generate a new piece of advice by clicking the dice icon
 >
-> _[From Frontend Mentor]()_
+> _[From Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)_
 
 <br />
 
@@ -65,6 +71,7 @@ This frontend project is a good way to practice connecting to an API and render 
 
 <br />
 
+
 ## How I built this project
 
 1.  Started by structuring the page with semantic and accessible HTML.
@@ -76,8 +83,6 @@ This frontend project is a good way to practice connecting to an API and render 
 ## Features
 
 - When the dice is clicked, the app displays a new advice from the Advice Slip API.
-  - Branch `main` solves the challenge with the `async/await` syntax.
-  - Branch `solved-with-promise-chaining` solves the challenge with promise chaining.
 - Responsive interface.
 - Lightweight.
 
@@ -90,14 +95,6 @@ This frontend project is a good way to practice connecting to an API and render 
 - `Flexbox`.
 - Mobile-first workflow.
 - Minified with `parcel` (v2).
-
-<br />
-
-## How I built this project
-
-1.  Start by structuring the page with semantic and accessible HTML.
-2.  Style the page with a mobile-first approach.
-3.  Add functionality with JavaScript.
 
 <br />
 
