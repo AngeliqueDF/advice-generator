@@ -2,6 +2,7 @@
   font-family: "Man Rope";
   src: url("Manrope-VariableFont_wght.8ea15cde.ttf");
   font-weight: 800;
+  font-display: swap;
 }
 body {
   background-color: hsl(218deg, 23%, 16%);
@@ -45,10 +46,9 @@ article #new-advice {
   background-color: hsl(150deg, 100%, 66%);
   border: none;
   border-radius: 100%;
-}
-article #new-advice:hover {
-  box-shadow: 0px 0px 30px hsl(150deg, 100%, 66%);
-  cursor: pointer;
+  background-image: url("icon-dice.43c8f464.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 article #divider {
   display: block;
@@ -122,4 +122,17 @@ footer .attribution a {
     right: 0;
   }
 }
+/* DICE HOVER STYLES */
+@media (any-hover: hover) {
+  #new-advice:hover {
+    box-shadow: 0px 0px 30px hsl(150deg, 100%, 66%);
+    cursor: pointer;
+  }
+}
+@media (hover: none) {
+  #new-advice:active {
+    box-shadow: 0px 0px 30px hsl(150deg, 100%, 66%);
+  }
+}
+/* END DICE HOVER STYLES */
 /*# sourceMappingURL=index.5aca7738.css.map */
