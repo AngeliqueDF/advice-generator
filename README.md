@@ -45,8 +45,28 @@ or
 
 <br />
 
-## The challenge
+## Features
 
+- When the dice is clicked, the app displays a new advice from the Advice Slip API.
+- Responsive interface.
+- Lightweight.
+
+## Technologies
+
+- Semantic `HTML5` markup.
+- `SCSS`.
+- `Flexbox`.
+- Mobile-first workflow.
+- Minified with `parcel` (v2).
+
+<br />
+
+## Description
+
+This frontend project is a good way to practice connecting to an API and render data received to the DOM.
+
+> ## The challenge
+>
 > Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
 >
 > You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
@@ -61,42 +81,25 @@ or
 
 <br />
 
-## Description
-
-This frontend project is a good way to practice connecting to an API and render data received to the DOM.
-
 <p align="center">
 <img width="375" width="667" src="./images/../src/design/mobile-design.jpg">
 </p>
-
-<br />
-
 
 ## How I built this project
 
 1.  Started by structuring the page with semantic and accessible HTML.
 2.  Styled the page with a mobile-first approach.
-3.  Added functionality with JavaScript.
+3.  Added functionality with JavaScript, using different approaches.
 
-<br />
+## Status
 
-## Features
+This app is complete.
 
-- When the dice is clicked, the app displays a new advice from the Advice Slip API.
-- Responsive interface.
-- Lightweight.
+## Planned changes
 
-<br />
+Use more tools to rewrite it for practice.
 
-## Technologies
-
-- Semantic `HTML5` markup.
-- `SCSS`.
-- `Flexbox`.
-- Mobile-first workflow.
-- Minified with `parcel` (v2).
-
-<br />
+- [ ] Complete with Alpine.js
 
 ## Sources
 
