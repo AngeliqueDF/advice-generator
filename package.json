@@ -1,5 +1,5 @@
 {
-	"name": "advide-generator-app",
+	"name": "advice-generator-app",
 	"browserslist": [
 		"last 3 and_chr versions",
 		"last 3 chrome versions",
@@ -10,26 +10,15 @@
 	"version": "1.0.0",
 	"description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
 	"source": "src/index.html",
-	"cleanDistFiles": [
-		"*.map",
-		"*.js",
-		"*.html",
-		"*.css",
-		"*.png",
-		"*.svg"
-	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npm run build && parcel serve index.html",
-		"dev": "parcel",
-		"build": "parcel build --dist-dir ."
+		"start": "parcel",
+		"build": "parcel build"
 	},
 	"author": "Angélique D. Faye",
-	"license": "MIT",
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.3.2",
-		"parcel": "^2.3.2",
-		"parcel-reporter-clean-dist": "^1.0.4"
+		"parcel": "^2.3.2"
 	},
 	"dependencies": {
 		"jquery": "^3.6.0"
