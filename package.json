@@ -1,5 +1,5 @@
 {
-	"name": "advide-generator-app",
+	"name": "advice-generator-app",
 	"browserslist": [
 		"last 3 and_chr versions",
 		"last 3 chrome versions",
@@ -12,9 +12,8 @@
 	"source": "src/index.html",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npm run build && parcel serve index.html",
-		"dev": "parcel",
-		"build": "parcel build --dist-dir ."
+		"start": "parcel",
+		"build": "parcel build"
 	},
 	"author": "Angélique D. Faye",
 	"devDependencies": {
