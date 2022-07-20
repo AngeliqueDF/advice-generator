@@ -1,9 +1,13 @@
 const findNewAdvice = async () => {
-  const response = await fetch('https://api.adviceslip.com/advice')
-  const advice = await response.json()
+	try {
+		const response = await fetch("https://api.adviceslip.com/advice");
+		const advice = await response.json();
 
-  return advice
-}
+		return advice;
+	} catch (error) {
+		console.log(error);
+	}
+};
 
 const newAdviceBtn = document.getElementById("new-advice");
 
