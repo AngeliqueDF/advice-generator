@@ -7,13 +7,8 @@ newAdviceBtn.addEventListener("click", () => {
 	fetch("https://api.adviceslip.com/advice")
 		.then((response) => response.json())
 		.then((data) => {
-			console.log(data);
-			const {
-				slip: { id, advice },
-			} = data;
-
-			adviceID.textContent = id;
-			adviceText.textContent = advice;
+			adviceID.textContent = data.slip.id;
+			adviceText.textContent = data.slip.advice;
 		})
 		.catch((error) => console.log(error));
 });
