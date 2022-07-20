@@ -18,7 +18,8 @@
 	"author": "Angélique D. Faye",
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.3.2",
-		"parcel": "^2.3.2"
+		"parcel": "^2.3.2",
+		"parcel-reporter-clean-dist": "^1.0.4"
 	},
 	"dependencies": {
 		"jquery": "^3.6.0"
