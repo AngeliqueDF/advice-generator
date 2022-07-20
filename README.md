@@ -32,8 +32,6 @@ _An app to get inspired._
 4. `npm start`
 5. visit `http://localhost:1234`
 
-or
-
 1. `npm run dev`
 2. Keep an eye on the console and reload the browser if necessary. The live reload server sometimes disconnects on its own.
 
