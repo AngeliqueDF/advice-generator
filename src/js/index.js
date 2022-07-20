@@ -5,8 +5,7 @@ const findNewAdvice = async () => {
   return advice
 }
 
-window.addEventListener('DOMContentLoaded', async () => {
-  const newAdviceBtn = document.getElementById('new-advice')
+const newAdviceBtn = document.getElementById("new-advice");
 
   newAdviceBtn.addEventListener('click', async () => {
     const adviceID = document.getElementById('advice-id')
@@ -17,4 +16,3 @@ window.addEventListener('DOMContentLoaded', async () => {
     adviceID.textContent = id
     adviceText.textContent = advice
   })
-})
