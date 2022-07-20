@@ -15,8 +15,8 @@ newAdviceBtn.addEventListener("click", async () => {
 	const adviceID = document.getElementById("advice-id");
 	const adviceText = document.getElementById("advice-text");
 
-    const { slip: { id, advice } } = await findNewAdvice()
+	const slip = await findNewAdvice();
 
-    adviceID.textContent = id
-    adviceText.textContent = advice
+	adviceID.textContent = slip.id;
+	adviceText.textContent = slip.advice;
 });
